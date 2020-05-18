@@ -1,0 +1,46 @@
+body {
+    padding: 50px 150px;
+    width: 100%;
+    position: relative;;
+}
+
+header {
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 5px auto;
+}
+
+.headerImg {
+    width: 100%;
+}
+
+.auther {
+    margin-top: 20px;
+    display: flex;
+}
+
+.auther > .avatar {
+    margin-right: 15px;
+}
+
+.auther > .avatar > img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.auther > .autherInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.auther > .autherInfo > .name {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.auther > .autherInfo > .desc {
+    color: #999;
+}
+
