@@ -1,7 +1,8 @@
 body {
     padding: 50px 150px;
-    width: 100%;
-    position: relative;;
+    width: 80%;
+    height: 100%;
+    position: relative;
 }
 
 header {
@@ -12,6 +13,8 @@ header {
 
 .headerImg {
     width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
 .auther {
