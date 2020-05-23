@@ -1,4 +1,4 @@
-@import './static/common.css';
+@import 'common.css';
 @import 'footer.css';
 @import 'media.css';
 
@@ -15,6 +15,13 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.image {
+    flex-grow: 1;
+    width: 150px; 
+    height: 150px;
+    border-radius: 12px;
 }
 
 .blogs{
@@ -45,7 +52,7 @@
     font-size: 0.8em;
 }
 .blogInfo > .desc {
-    flex: none;
+    /* flex: none; */
     margin-top: 10px;
 }
 .blogInfo > .btn {

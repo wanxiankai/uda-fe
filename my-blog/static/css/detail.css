@@ -1,4 +1,4 @@
-@import '../../static/common.css';
+@import 'common.css';
 
 @media(min-width:2000px){
     .container {
