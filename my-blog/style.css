@@ -1,4 +1,4 @@
-@import 'common.css';
+@import './static/common.css';
 @import 'footer.css';
 @import 'media.css';
 
@@ -27,6 +27,7 @@
 .blogInfo {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin-left: 20px;
     margin-top: 10px;
 }
@@ -46,5 +47,9 @@
 .blogInfo > .desc {
     flex: none;
     margin-top: 10px;
+}
+.blogInfo > .btn {
+    background: yellowgreen;
+    color: red;
 }
 

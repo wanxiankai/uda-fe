@@ -1,4 +1,4 @@
-@import '../../common.css';
+@import '../../static/common.css';
 
 @media(min-width:2000px){
     .container {
@@ -28,31 +28,43 @@ header {
 
 .auther {
     margin-top: 20px;
+    /* display: flex; */
+}
+.auther-content {
     display: flex;
 }
+.other-info{
+    padding: 5px 0;
+    margin-left: 20px;
+    color: #999;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-.auther > .avatar {
+.avatar {
     margin-right: 15px;
 }
 
-.auther > .avatar > img{
+.avatar > img{
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
 
-.auther > .autherInfo{
+.autherInfo{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.auther > .autherInfo > .name {
+.autherInfo > .name {
     font-weight: bold;
     font-size: 1.5em;
 }
 
-.auther > .autherInfo > .desc {
+.autherInfo > .desc {
     color: #999;
 }
 
